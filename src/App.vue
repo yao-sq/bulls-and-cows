@@ -1,17 +1,36 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MainPage/>
+    <!--
+    MainPage
+      Introduction
+      list of PlayerArea
+          Goal
+            btnUnlock
+            Input (faded)
+            btnReveal
+          btnMakeIntoAI
+          list of Guess
+              value
+              result
+                  bulls
+                  cows
+          guess input  + submit btn
+          btnHelpFromAi
+          btnRemovePlayer
+      btnAddPlayer
+
+    -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainPage from './views/MainPage.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MainPage
   }
 }
 </script>
