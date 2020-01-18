@@ -5,6 +5,7 @@
     MainPage
       Introduction
       list of PlayerArea
+          name
           Goal
             btnUnlock
             Input (faded)
