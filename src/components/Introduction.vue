@@ -15,7 +15,6 @@
             Got it ;)
         </button>
     </div>
-
 </template>
 
 <style scoped>

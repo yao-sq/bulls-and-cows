@@ -5,6 +5,7 @@
     </div>
 </template>
 
+
 <script>
 import Introduction from '../components/Introduction.vue'
 import PlayerArea from '../components/PlayerArea.vue'
